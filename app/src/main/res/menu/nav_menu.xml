@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/cars_name">
+        <menu>
+            <item
+                android:id="@+id/item1"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/audi" />
+
+            <item
+                android:id="@+id/item2"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/bmw" />
+
+            <item
+                android:id="@+id/item3"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/ferrari" />
+
+            <item
+                android:id="@+id/item4"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/chevrolet" />
+
+            <item
+                android:id="@+id/item5"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/lamborghini" />
+        </menu>
+    </item>
+
+    <item android:title="@string/cars_brands">
+
+        <menu>
+            <item
+                android:title="@string/audi"
+                android:id="@+id/audiMenu"
+                android:icon="@drawable/ic_baseline_directions_car_24"/>
+            <item
+                android:title="@string/bmw"
+                android:id="@+id/bmwMenu"
+                android:icon="@drawable/ic_baseline_directions_car_24"/>
+            <item
+                android:title="@string/ferrari"
+                android:id="@+id/ferrariMenu"
+                android:icon="@drawable/ic_baseline_directions_car_24"/>
+            <item
+                android:title="@string/chevrolet"
+                android:id="@+id/chevroletMenu"
+                android:icon="@drawable/ic_baseline_directions_car_24"/>
+            <item
+                android:title="@string/lamborghini"
+                android:id="@+id/lamborghiniMenu"
+                android:icon="@drawable/ic_baseline_directions_car_24"/>
+            <item
+                android:title="@string/wolksvagen"
+                android:id="@+id/wolksvagenMenu"
+                android:icon="@drawable/ic_baseline_directions_car_24"/>
+            <item
+                android:title="@string/lada"
+                android:id="@+id/ladaMenu"
+                android:icon="@drawable/ic_baseline_directions_car_24"/>
+        </menu>
+
+    </item>
+
+
+</menu>
