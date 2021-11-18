@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:background="@color/purple_700"
+    android:background="@color/purple_500"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".InfoActivity">
@@ -28,13 +28,11 @@
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:backgroundTint="@color/purple_500"
             android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/purple_500"
                 android:orientation="vertical">
 
                 <ImageView
@@ -48,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
-                    android:paddingHorizontal="20dp"
+                    android:paddingHorizontal="16dp"
                     android:paddingVertical="5dp">
 
                     <androidx.cardview.widget.CardView
@@ -106,7 +104,7 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/montserrat"
                     android:justificationMode="inter_word"
-                    android:paddingHorizontal="20dp"
+                    android:paddingHorizontal="16dp"
                     android:text="@string/audi_a5"
                     android:textColor="@color/white"
                     android:textSize="20sp"
